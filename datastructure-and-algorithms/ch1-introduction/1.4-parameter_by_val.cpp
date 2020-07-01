@@ -1,13 +1,13 @@
 #include <iostream>
 
-void incremmentByVal(int val){
+void incrementByVal(int val){
     val++;
 }
 
 int main(){
     int i = 10;
     std::cout<<"Value of: "<<i<<std::endl;
-    incremmentByVal(i);
+    incrementByVal(i);
     std::cout<<"Value of: "<<i<<std::endl;
     return 0;
 }
