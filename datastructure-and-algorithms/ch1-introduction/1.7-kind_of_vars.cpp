@@ -29,3 +29,15 @@ int Bulb::getBulbCount(){
     return TotalBulbCount;
 }
 
+void Bulb::turnOn(){
+    isOn = true;
+}
+
+void Bulb::turnOff(){
+    isOn = false;
+}
+
+bool Bulb::isOnFun(){
+    return isOn;
+}
+
