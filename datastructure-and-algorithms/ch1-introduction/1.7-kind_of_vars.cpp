@@ -1,43 +1,49 @@
 #include <iostream>
 
-class Bulb{
-    private:
-        // Class Variables
-        static int TotalBulbCount;
+class Bulb
+{
+private:
+    // Class Variables
+    static int TotalBulbCount;
 
-        // Instance Variables
-        bool isOn;
-    public:
-        // Constructor
-        Bulb();
+    // Instance Variables
+    bool isOn;
 
-        // Class Method
-        static int getBulbCount();
+public:
+    // Constructor
+    Bulb();
 
-        // Instance Method
-        virtual void turnOn();
-        virtual void turnOff();
-        virtual bool isOnFun();
+    // Class Method
+    static int getBulbCount();
+
+    // Instance Method
+    virtual void turnOn();
+    virtual void turnOff();
+    virtual bool isOnFun();
 };
 
-Bulb::Bulb(){
+Bulb::Bulb()
+{
     isOn = false;
     TotalBulbCount++;
 }
 
-int Bulb::getBulbCount(){
+int Bulb::getBulbCount()
+{
     return TotalBulbCount;
 }
 
-void Bulb::turnOn(){
+void Bulb::turnOn()
+{
     isOn = true;
 }
 
-void Bulb::turnOff(){
+void Bulb::turnOff()
+{
     isOn = false;
 }
 
-bool Bulb::isOnFun(){
+bool Bulb::isOnFun()
+{
     return isOn;
 }
-
