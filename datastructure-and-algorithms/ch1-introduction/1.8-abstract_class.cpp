@@ -26,8 +26,10 @@ public:
 int main()
 {
     Bulb b;
-    std::cout << "bulb is on return: " << b.isOnFun() << std::endl;
+    std::cout << "bulb is on return: "
+              << b.isOnFun() << std::endl;
     b.turnOn();
-    std::cout << "bulb is on return: " << b.isOnFun() << std::endl;
+    std::cout << "bulb is on return: "
+              << b.isOnFun() << std::endl;
     return 0;
 }

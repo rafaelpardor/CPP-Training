@@ -3,6 +3,8 @@
 void incrementByPoint(int *ptr)
 {
     (*ptr)++;
+    std::cout << "Value of i inside the function: "
+              << *ptr << std::endl;
 }
 
 int main()

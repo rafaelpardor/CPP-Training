@@ -52,8 +52,11 @@ double Circle::perimeter()
 int main()
 {
     double radius = 10;
-    Shape *circle = new Circle(radius);
+    Shape *circle_var = new Circle(radius);
     std::cout << "CIRCLE" << std::endl;
-    std::cout << "Circle radius: " << radius << ". Area: " << circle->area() << ". Perimeter: " << circle->perimeter() << "." << std::endl;
+    std::cout << "Circle radius: "
+              << radius << ". Area: " << circle_var->area()
+              << ". Perimeter: " << circle_var->perimeter()
+              << "." << std::endl;
     return 0;
 }
