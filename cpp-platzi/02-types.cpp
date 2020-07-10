@@ -2,11 +2,11 @@
 
 int main()
 {
-    std::cout << 20 << std::endl;
-    std::cout << 20.123 << std::endl;
-    std::cout << true << std::endl;
-    std::cout << false << std::endl;
-    std::cout << 'R' << std::endl;
-    std::cout << "Rafael" << std::endl;
+    std::cout << "Tipo de dato int: " << 21 << std::endl;
+    std::cout << "Tipo de dato float: " << 3.14 << std::endl;
+    std::cout << "Tipo de dato bool: " << true << std::endl;
+    std::cout << "Tipo de dato bool: " << false << std::endl;
+    std::cout << "Tipo de dato char: " << 'R' << std::endl;
+    std::cout << "Tipo de dato string: 'Rafael'" << std::endl;
     return 0;
 }
